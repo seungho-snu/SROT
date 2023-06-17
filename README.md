@@ -18,7 +18,17 @@ To train an ESRGAN-SROT model:
 
 <p align="center"><img src="figures/SROT-M1234-v2-4x.png" width="800"></p>
 
+# Citation
 
+    @InProceedings{Park_2023_CVPR,
+        author    = {Park, Seung Ho and Moon, Young Su and Cho, Nam Ik},
+        title     = {Perception-Oriented Single Image Super-Resolution Using Optimal Objective Estimation},
+        booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+        month     = {June},
+        year      = {2023},
+        pages     = {1725-1735}
+    }
+    
 
 # Acknowledgement
 Our work and implementations are inspired by and based on BasicSR <a href="https://github.com/xinntao/BasicSR">[site]</a> 
