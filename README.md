@@ -14,6 +14,12 @@ To test pretrained ESRGAN-SROT model:
 - Before running this code, download the pretrained ESRGAN SROT 4x model <a href="https://www.dropbox.com/s/qy9na2i2o06rwf5/ESRGAN-SROT-M1234-v2-4x.pth?dl=0">Link</a>.
 - Set the path of dataroot_LQ and pretrain_model_G in the yml file.
 
+ You can also test pretrained ESRGAN-SROT model with different t values as follows:
+
+    python test.py -opt options/test/test.yml -t 1.0
+    python test.py -opt options/test/test.yml -t 0.0
+    python test.py -opt options/test/test.yml -t 0.3
+    
 ### Training
 To train an ESRGAN-SROT model:
 
