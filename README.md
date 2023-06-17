@@ -1,6 +1,13 @@
 # SROT
 ## (ESRGAN-SROT-M1234-v2-4x)
 
+### Test
+To test pretrained ESRGAN-SROT model:
+
+    python train.py -opt options/train/train.yml
+
+- Before running this code, download the pretrained RRDB SR 4x model <a href="https://www.dropbox.com/s/qy9na2i2o06rwf5/ESRGAN-SROT-M1234-v2-4x.pth?dl=0">Link</a>.
+
 ### Training
 To train an ESRGAN-SROT model:
 
