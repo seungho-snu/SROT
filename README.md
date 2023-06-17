@@ -20,6 +20,7 @@ To train an ESRGAN-SROT model:
 
 
 
-
+# Acknowledgement
+Our work and implementations are inspired by and based on BasicSR <a href="https://github.com/xinntao/BasicSR">[site]</a> 
 
 
