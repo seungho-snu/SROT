@@ -1,0 +1,25 @@
+name: ESRGAN-SROT-M1234-v2-4x
+suffix: ~  # add suffix to saved images
+model: sr
+distortion: sr
+scale: 4
+gpu_ids: [0]
+
+datasets:
+  test_100:  # the 1st test dataset
+    name: DIV2K_val_Q100
+    mode: LQ
+    dataroot_LQ: E:\exp\dataset\DIV2K_valid_LR_bicubic\X4
+
+#### network structures
+network_G:
+  which_model_G: RRDBNet
+  in_nc: 3
+  out_nc: 3
+  nf: 64
+  nb: 23
+  upscale: 4
+
+#### path
+path:
+  pretrain_model_G: E:\exp\pretrained_models\ESRGAN-SROT_4x.pth
