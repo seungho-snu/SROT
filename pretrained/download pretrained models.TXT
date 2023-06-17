@@ -1,0 +1,2 @@
+Before running training code, download the pretrained RRDB SR 4x model
+Before running test code, download the pretrained ESRGAN SROT 4x
