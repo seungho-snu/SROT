@@ -22,4 +22,4 @@ network_G:
 
 #### path
 path:
-  pretrain_model_G: E:\exp\pretrained_models\ESRGAN-SROT_4x.pth
+  pretrain_model_G: E:\exp\pretrained_models\ESRGAN-SROT-M1234-v2-4x.pth
