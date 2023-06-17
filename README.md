@@ -14,7 +14,13 @@ Seung Ho Park, Young Su Moon, Nam Ik Cho
 <p align="center"><img src="figures/PD-curve.png" width="600"></p>
 <p align="center"><img src="figures/SROT-HR-t.png" width="600"></p>
 
+## Usage:
 
+### Environments
+- Pytorch 1.10.0
+- CUDA 11.3
+- Python 3.8
+- 
 ### Test
 To test pretrained ESRGAN-SROT model:
 
