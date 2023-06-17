@@ -11,7 +11,8 @@ Seung Ho Park, Young Su Moon, Nam Ik Cho
 - The objective trajectory of the training code is as in our CVPR paper <a href="https://openaccess.thecvf.com/content/CVPR2023/html/Park_Perception-Oriented_Single_Image_Super-Resolution_Using_Optimal_Objective_Estimation_CVPR_2023_paper.html">Link</a>
 
 - Changes in the SROT results according to t values
-<p align="center"><img src="figures/PD-curve.png" width="400"></p>
+<p align="center"><img src="figures/PD-curve.png" width="600"></p>
+<p align="center"><img src="figures/SROT-HR-t.png" width="600"></p>
 
 
 ### Test
