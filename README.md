@@ -14,6 +14,10 @@ Seung Ho Park, Young Su Moon, Nam Ik Cho
 <p align="center"><img src="figures/PD-curve.png" width="600"></p>
 <p align="center"><img src="figures/SROT-HR-t.png" width="600"></p>
 
+## SROT (the generative SR model) Training
+
+<p align="center"><img src="figures/conditional model training - sort.png" width="800"></p>
+
 ## Usage:
 
 ### Environments
