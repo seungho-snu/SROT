@@ -11,9 +11,6 @@ import utils.util as util
 from data import create_dataset, create_dataloader
 from models import create_model
 
-from lpips import lpips
-loss_fn_alex_sp = lpips.LPIPS(spatial=True)
-
 def esrgan():
     #### options
     parser = argparse.ArgumentParser()
