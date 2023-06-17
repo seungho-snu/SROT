@@ -1,5 +1,5 @@
 # SROT
-## (ESRGAN-SROT-M1234-v2-4x)
+## ESRGAN-SROT-M1234-v2-4x
 
 ### Test
 To test pretrained ESRGAN-SROT model:
@@ -18,7 +18,7 @@ To train an ESRGAN-SROT model:
 
 <p align="center"><img src="figures/SROT-M1234-v2-4x.png" width="800"></p>
 
-# Citation
+## Citation
 
     @InProceedings{Park_2023_CVPR,
         author    = {Park, Seung Ho and Moon, Young Su and Cho, Nam Ik},
@@ -30,7 +30,7 @@ To train an ESRGAN-SROT model:
     }
     
 
-# Acknowledgement
+## Acknowledgement
 Our work and implementations are inspired by and based on BasicSR <a href="https://github.com/xinntao/BasicSR">[site]</a> 
 
 
