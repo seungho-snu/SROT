@@ -6,6 +6,10 @@
 
 Seung Ho Park, Young Su Moon, Nam Ik Cho
 
+## SROT (the generative SR model) Training
+
+<p align="center"><img src="figures/conditional model training - sort.png" width="800"></p>
+
 ## ESRGAN-SROT-M1234-v2-4x
 
 - The objective trajectory of the training code is as in our CVPR paper <a href="https://openaccess.thecvf.com/content/CVPR2023/html/Park_Perception-Oriented_Single_Image_Super-Resolution_Using_Optimal_Objective_Estimation_CVPR_2023_paper.html">Link</a>
@@ -15,10 +19,6 @@ Seung Ho Park, Young Su Moon, Nam Ik Cho
 - Changes in the SROT results according to t values
 <p align="center"><img src="figures/PD-curve.png" width="600"></p>
 <p align="center"><img src="figures/SROT-HR-t.png" width="600"></p>
-
-## SROT (the generative SR model) Training
-
-<p align="center"><img src="figures/conditional model training - sort.png" width="800"></p>
 
 ## Usage:
 
