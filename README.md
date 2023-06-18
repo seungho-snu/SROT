@@ -44,7 +44,7 @@ To train an ESRGAN-SROT model:
 
     python train.py -opt options/train/train.yml
 
-Preparing training pairs (The example of uising DIV2K dataset)
+Before running this code, prepare the training pairs. The example of uising the DIV2K dataset is 
 
     python extract_subimgs_single.py -i path_to\DIV2K_train_HR\ -o path_to\DIV2K_train_HR_sub_480 -crop_sz 480 -step 240    
     python extract_subimgs_single.py -i path_to\DIV2K_train_LR_bicubic\X4 -o path_to\DIV2K_train_LR_bicubic\X4_sub_120 -crop_sz 120 -step 60
