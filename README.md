@@ -6,7 +6,7 @@
 
 Seung Ho Park, Young Su Moon, Nam Ik Cho
 
-## SROT (SR model trained with an Objective Trajectory) Training
+## SROT (Proposed SR model trained with an Objective Trajectory) Training
 
 <p align="center"><img src="figures/conditional model training - sort.png" width="800"></p>
 
