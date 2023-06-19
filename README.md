@@ -28,14 +28,14 @@ Seung Ho Park, Young Su Moon, Nam Ik Cho
 - Python 3.8
 
 ### Test
-To test pre-trained ESRGAN-SROT model:
+To test the pre-trained ESRGAN-SROT model:
 
     python test.py -opt options/test/test.yml
 
 - Before running this code, download the pre-trained ESRGAN SROT 4x model <a href="https://www.dropbox.com/s/qy9na2i2o06rwf5/ESRGAN-SROT-M1234-v2-4x.pth?dl=0">Link</a>.
 - Set the path of dataroot_LQ and pretrain_model_G in the yml file.
 
- You can also test pre-trained ESRGAN-SROT model with different t values as follows:
+ You can also test the pre-trained ESRGAN-SROT model with different t values as follows:
 
     python test.py -opt options/test/test.yml -t 1.0
     python test.py -opt options/test/test.yml -t 0.0
@@ -46,15 +46,15 @@ To train an ESRGAN-SROT model:
 
     python train.py -opt options/train/train.yml
 
-Before running this code, prepare the training pairs. The example of uising the DIV2K dataset is 
+Before you run this code, please prepare the training pairs. An example of using the DIV2K dataset is 
 
     python extract_subimgs_single.py -i path_to\DIV2K_train_HR\ -o path_to\DIV2K_train_HR_sub_480 -crop_sz 480 -step 240    
     python extract_subimgs_single.py -i path_to\DIV2K_train_LR_bicubic\X4 -o path_to\DIV2K_train_LR_bicubic\X4_sub_120 -crop_sz 120 -step 60
     
-- Set the paths in the yml file. In this case, dataroot_LQ is path_to\DIV2K_train_LR_bicubic\X4_sub_120 and dataroot_GT is path_to\DIV2K_train_HR_sub_480.
+- Set the paths in the yml file. In this case, dataroot_LQ is path_to\DIV2K_train_LR_bicubic\X4_sub_120, and dataroot_GT is path_to\DIV2K_train_HR_sub_480.
 - The extract_subimgs_single.py code is in the codes\scripts.
 
-Before running this code, download the pretrained RRDB SR 4x model <a href="https://www.dropbox.com/s/m0ejc0qhqi9l1rq/RRDB_PSNR_x4.pth?dl=0">Link</a>. This pretrained RRDB_PSNR_4x.pth is provided by the ESRGAN author <a href="https://github.com/xinntao/ESRGAN">Link</a>.
+Before running this code, download the pre-trained RRDB SR 4x model <a href="https://www.dropbox.com/s/m0ejc0qhqi9l1rq/RRDB_PSNR_x4.pth?dl=0">Link</a>. This pre-trained RRDB_PSNR_4x.pth is provided by the ESRGAN author <a href="https://github.com/xinntao/ESRGAN">Link</a>.
  - Set the path of pretrain_model_G in the yml file. 
 
 ## Citation
