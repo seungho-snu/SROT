@@ -299,7 +299,7 @@ class SRGANModel(BaseModel):
         self.log_dict['D_fake'] = torch.mean(pred_d_fake.detach())
 
     def test(self, opt):
-        self.t = opt['T_ctrl']
+        self.t = opt.T_ctrl
         self.netG.eval()
 
         with torch.no_grad():
